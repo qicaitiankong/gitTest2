@@ -9,13 +9,15 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (strong,nonatomic)UIButton *button;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.button = [UIButton buttonWithType:UIButtonTypeCustom];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
