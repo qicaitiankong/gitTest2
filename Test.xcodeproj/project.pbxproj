@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		998A660D1D215C18005B9933 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 998A660C1D215C18005B9933 /* Student.m */; };
 		99EA86241D21532300CA645A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EA86231D21532300CA645A /* main.m */; };
 		99EA86271D21532300CA645A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EA86261D21532300CA645A /* AppDelegate.m */; };
 		99EA862A1D21532300CA645A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EA86291D21532300CA645A /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		998A660B1D215C18005B9933 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		998A660C1D215C18005B9933 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		99EA861F1D21532300CA645A /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EA86231D21532300CA645A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99EA86251D21532300CA645A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				99EA86301D21532300CA645A /* LaunchScreen.storyboard */,
 				99EA86331D21532300CA645A /* Info.plist */,
 				99EA86221D21532300CA645A /* Supporting Files */,
+				998A660B1D215C18005B9933 /* Student.h */,
+				998A660C1D215C18005B9933 /* Student.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				99EA862A1D21532300CA645A /* ViewController.m in Sources */,
 				99EA86271D21532300CA645A /* AppDelegate.m in Sources */,
 				99EA86241D21532300CA645A /* main.m in Sources */,
+				998A660D1D215C18005B9933 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +505,7 @@
 				99EA864E1D21532300CA645A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99EA864F1D21532300CA645A /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				99EA86511D21532300CA645A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99EA86521D21532300CA645A /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				99EA86541D21532300CA645A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
